@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as HashRouter, Route, Routes } from 'react-router-dom'
 
 import { Leagues } from './pages/Leagues'
 import { Teams } from './pages/Teams'
@@ -10,7 +10,7 @@ import { AppContainer } from './styles'
 const App: FC = () => {
     return (
         <AppContainer>
-            <Router>
+            <HashRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route path="/" element={<Leagues />} />
                     <Route path="/teams" element={<Teams />} />
@@ -23,7 +23,7 @@ const App: FC = () => {
                         element={<TeamCalendar />}
                     />
                 </Routes>
-            </Router>
+            </HashRouter>
         </AppContainer>
     )
 }
