@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/football-schedule/static/css/main.e6c13ad2.css",
+    "main.js": "/football-schedule/static/js/main.8b60ae43.js",
+    "static/js/377.aab6eeaa.chunk.js": "/football-schedule/static/js/377.aab6eeaa.chunk.js",
+    "static/media/logo.png": "/football-schedule/static/media/logo.1deb3cd22b7324954e46.png",
+    "static/media/loaderGif.gif": "/football-schedule/static/media/loaderGif.f071303833c8e9cfc025.gif",
+    "service-worker.js": "/football-schedule/service-worker.js",
+    "index.html": "/football-schedule/index.html",
+    "main.e6c13ad2.css.map": "/football-schedule/static/css/main.e6c13ad2.css.map",
+    "main.8b60ae43.js.map": "/football-schedule/static/js/main.8b60ae43.js.map",
+    "377.aab6eeaa.chunk.js.map": "/football-schedule/static/js/377.aab6eeaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8b60ae43.js"
+  ]
+}
